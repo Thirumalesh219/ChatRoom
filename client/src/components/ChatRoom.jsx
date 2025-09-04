@@ -34,7 +34,7 @@ export default function ChatRoom() {
   useEffect(() => {
     if (!roomId || !username) return;
 
-    const socket = io("http://localhost:3000");
+    const socket = io("https://chatroom-1-zj6n.onrender.com");
     socketRef.current = socket;
 
     socket.emit("join-room", { roomId, username });
