@@ -17,7 +17,7 @@ function JoinRoom() {
     }
 
     try {
-      const res = await axios.post("https://chatapp-bw55.onrender.com/api/rooms/join", {
+      const res = await axios.post("https://chatroom118.onrender.com/api/rooms/join", {
         roomId,
         username,
         password,
