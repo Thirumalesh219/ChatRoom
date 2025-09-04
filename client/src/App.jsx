@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import ChatRoom from "./components/ChatRoom";
-import JoinRoom from "./components/joinRoom";
+import JoinRoom from "./components/JoinRoom";
 import { AuthProvider, context } from "./context/context";
 function AppContent() {
   const { auth } = useContext(context);
